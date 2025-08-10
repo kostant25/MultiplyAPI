@@ -1,0 +1,10 @@
+@MultiplyAPI_HostAddress = http://localhost:5260
+
+POST {{MultiplyAPI_HostAddress}}/multiply/
+Content-Type: application/json
+
+{
+  "inputNumber": 2
+}
+
+###
